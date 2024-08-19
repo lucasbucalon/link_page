@@ -1,6 +1,8 @@
 
 <div width="100%" align="center">
-﻿# LINK_PAGE
+  
+<h1>﻿LINK_PAGE</h1>
+</br>
 
 <a href="https://lukasbd.github.io/link_page/">Visitar Pagina</a>
 </br>
