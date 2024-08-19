@@ -7,5 +7,5 @@
 </br>
 
 <div width="100%" telx-align="center">
-<img width="50%" src="/image/linkpage_image.jpg" alt="imagem da página">
+<img width="50%" align="center" src="/image/linkpage_image.jpg" alt="imagem da página">
 </div>
