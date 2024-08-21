@@ -1,5 +1,143 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(
+    to right top,
+    rgba(1, 24, 61, 1),
+    rgba(30, 30, 30, 1) 50%
+  );
+  background-attachment: fixed;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.imagem_perfil {
+  position: relative;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.foto {
+  z-index: 1;
+  position: relative;
+  margin: 30px 0 0 0;
+}
+
+.arte {
+  position: absolute;
+  margin: 0 0 0 -30px;
+}
+
+.imagem_perfil > h1 {
+  color: white;
+  font-size: 3.2rem;
+  margin: 20px 0 0 0;
+}
+
+.conteiner {
+  display: flex;
+  margin: 60px 20px 0 20px;
+}
+
+.conteiner ul {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.conteiner ul li {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0 30px 25px 30px;
+  list-style: none;
+}
+
+.conteiner ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.2rem;
+  display: flex;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+
+.conteiner ul li :hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.conteiner ul li a :hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.conteiner ul a p {
+  margin: auto;
+}
+
+.conteiner ul h2 {
+  color: rgba(208, 108, 47, 1);
+  margin: 0 0 20px 0;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.mdi--facebook {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M12 2.04c-5.5 0-10 4.49-10 10.02c0 5 3.66 9.15 8.44 9.9v-7H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.89 3.78-3.89c1.09 0 2.23.19 2.23.19v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33v7a10 10 0 0 0 8.44-9.9c0-5.53-4.5-10.02-10-10.02'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+footer {
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  padding: 60px 20px;
+  font-weight: 400;
+}
+
+footer h2 {
+  font-size: 2.2rem;
+}
+
+footer p {
+  margin: 50px 0 0 0;
+}
+
+#particles-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #fff;
 }
